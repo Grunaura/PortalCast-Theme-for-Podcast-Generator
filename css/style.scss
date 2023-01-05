@@ -465,6 +465,68 @@ body{
 
             }
 
+            &.category-page-header{
+                width: 100vw;
+                display: flex;
+                justify-content: center;
+                padding-top: 200px;
+                padding-bottom: 100px;
+                margin-top: -112px;
+                color: $dark-green;
+                background-color: $yellow;
+
+                p{
+                    font-size: 25px;
+                    margin: 0;
+                    font-variation-settings: 'wght' 500;
+                }
+
+                h3{
+                    font-size: 74px;
+                    font-variation-settings: 'wght' 700;
+                    margin: 0;
+                }
+            }
+
+            &.categories{
+
+                ul {
+
+                    &.categories-list{
+
+                        list-style: none;
+                        padding: 0;
+
+                        li{
+
+                            &.categories-item{
+                                margin: 20px 0;
+                                background-color: $yellow;
+                                display: flex;
+                                justify-content: space-between;
+                                align-items: center;
+                                padding: 20px;
+                                font-weight: 600;
+                                font-size: 22px;
+                                border-radius: 10px;
+                                color: $dark-green;
+
+                                span{
+                                    &.episodes-count{
+                                        background: white;
+                                        padding: 10px 16px;
+                                        border-radius: 10px;
+                                        font-weight: 600;
+                                        font-size: 22px;
+                                        color: $dark-green;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
             &.episodes{
 
                 display: flex;
