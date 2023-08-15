@@ -4,10 +4,18 @@ const openCloseBtn = document.querySelector('.file-informations-button');
 const popupDiv = document.querySelector('.file-informations-popup');
 const closeBtn = document.querySelector('.close');
 
-openCloseBtn.addEventListener('click', function() {
-  popupDiv.style.visibility = 'visible';
-});
+if ( openCloseBtn ) {
 
-closeBtn.addEventListener('click', function() {
-  popupDiv.style.visibility = 'hidden';
-});
+  openCloseBtn.addEventListener('click', function() {
+    popupDiv.style.visibility = 'visible';
+  });
+
+}
+
+if ( closeBtn ) {
+
+  closeBtn.addEventListener('click', function() {
+    popupDiv.style.visibility = 'hidden';
+  });
+
+}
