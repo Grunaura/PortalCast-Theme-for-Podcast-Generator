@@ -2,5 +2,8 @@
 
 This is a work in progress.
 
-Todo: hang the theme here:
+Todo: 
+Hang the theme here at this site.
+
 Preview: https://grunaura.github.io/PortalCast-Theme-for-Podcast-Generator/
+This link won't work until I make this site.
