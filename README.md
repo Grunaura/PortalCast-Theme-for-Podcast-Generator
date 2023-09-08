@@ -1,6 +1,6 @@
-# Yello-Theme-for-Podcast-Generator
+# PortalCast-Theme-for-Podcast-Generator
 
-Not yet finished
+This is a work in progress.
 
 
-Preview: https://neamitika.github.io/Yello-Theme-for-Podcast-Generator/
+Preview: https://grunaura.github.io/PortalCast-Theme-for-Podcast-Generator/
